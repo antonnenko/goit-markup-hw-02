@@ -10,7 +10,7 @@ ul {
   list-style: none;
 }
 .visually-hidden {
-  position: absolute;
+  /* position: absolute; */
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -65,15 +65,17 @@ ul {
   color: #404bbf;
   outline: transparent;
 }
-.header-address a {
+.header-address {
+  font-style: normal;
+}
+.header-address-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
-.header-address a:hover,
-.header-address a:focus {
+.header-address-link:hover,
+.header-address-link:focus {
   color: #404bbf;
   outline: transparent;
 }
